@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Mind Ecommerce Plant Website</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Remix Icon cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons font cdn -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- header design -->
+    <header>
+      <!-- logo -->
+      <a href="#" class="logo"><img src="img/logo.svg" alt="" /></a>
+      <nav>
+        <!-- nav items -->
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+
+        <div class="icons">
+          <a href="#"><i class="ri-shopping-cart-2-line"></i></a>
+          <a href="#"><i class="ri-user-3-line"></i></a>
+          <div>|</div>
+          <div class="bx bx-menu-alt-right" id="menu-icon"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- banner design -->
+    <div class="banner">
+      <!-- banner content -->
+      <div class="banner-content">
+        <h1>Buy your dream plants</h1>
+
+        <div class="banner-stats">
+          <div>
+            <h6>50+</h6>
+            <p>Plant Species</p>
+          </div>
+          <div class="bar"></div>
+          <div>
+            <h6>100+</h6>
+            <p>Cutomers</p>
+          </div>
+        </div>
+
+        <div class="search-btn">
+          <form>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="What are you looking for?"
+            />
+            <button type="submit" class="search-icon">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- banner image -->
+      <div class="banner-img">
+        <img src="img/banner2.svg" alt="" />
+      </div>
+    </div>
+
+    <!-- Best Selling Products -->
+    <section class="best-selling">
+      <div class="best-selling-content">
+        <h2>Best Selling Plants</h2>
+        <p>Easiest way to healthy life by buying your favorite plants</p>
+        <button class="btn">
+          See more <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+
+      <div class="products">
+        <a href="/create-checkout-session">
+        <img src="img/product1.png" alt="" />
+        </a>
+        <div>
+          <h5>Natural Plants</h5>
+          <p> 1,400.00</p>
+        </div>
+      </div>
+      <div class="products">
+        <img src="img/product2.png" alt="" />
+        <div>
+          <h5>Artificial Plants</h5>
+          <p> 900.00</p>
+        </div>
+      </div>
+      <div class="products">
+        <img src="img/product3.png" alt="" />
+        <div>
+          <h5>Natural Plants</h5>
+          <p> 3,500.00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about">
+      <h2>About us</h2>
+      <p>Order now and appreciate the beauty of nature</p>
+
+      <div class="about-box">
+        <div class="box">
+          <div class="box-img"><img src="img/tree.svg" alt="" /></div>
+          <div>
+            <h3>Large Assortment</h3>
+            <p>
+              we offer many different types of products with fewer variations in
+              each category.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img"><img src="img/git-box.svg" alt="" /></div>
+          <div>
+            <h3>Fast & Free Shipping</h3>
+            <p>
+              4-day or less delivery time, free shipping and an expedited
+              delivery option.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img"><img src="img/Telephone.svg" alt="" /></div>
+          <div>
+            <h3>24/7 Support</h3>
+            <p>
+              answers to any business related inquiry 24/7 and in real-time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section -->
+    <section class="categories">
+      <h2>Categories</h2>
+      <p>Find what you are looking for</p>
+      <!-- single category -->
+      <div class="category-container">
+        <div class="row">
+          <img src="img/natural-plants.svg" alt="" />
+          <h3>Natural Plants</h3>
+        </div>
+        <div class="row">
+          <img src="img/plant-accessories.svg" alt="" />
+          <div>
+            <h3>Plant Accessories</h3>
+            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Explore <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/artificial-plants.svg" alt="" />
+          <h3>Artificial Plants</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review">
+      <h2>What customers say about GREEMIND?</h2>
+      <div class="indicator">
+        <span class="arrow-icon icon1"></span>
+        <span class="arrow-icon"></span>
+        <span class="arrow-icon"></span>
+        <span class="arrow-icon"></span>
+      </div>
+
+      <div class="review-container">
+        <div class="slider-row" id="slide">
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>John Doe</h3>
+                    <p>Youtuber</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user1.svg" alt="" />
+            </div>
+          </div>
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>John Doe</h3>
+                    <p>Youtuber</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user2.svg" alt="" />
+            </div>
+          </div>
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>John Doe</h3>
+                    <p>Youtuber</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user1.svg" alt="" />
+            </div>
+          </div>
+          <div class="slider-col">
+            <div class="review-content">
+              <p>
+                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos.
+              </p>
+              <div class="review-text">
+                <div class="user-info">
+                  <i class="ri-double-quotes-l"></i>
+                  <div>
+                    <h3>John Doe</h3>
+                    <p>Youtuber</p>
+                  </div>
+                </div>
+                <div><i class="ri-star-fill"></i> <span>4.5</span></div>
+              </div>
+            </div>
+            <div class="user-img">
+              <img src="img/user2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="">
+      <div class="footer-container">
+        <!-- left side -->
+        <div class="company-info">
+          <img src="img/logo.svg" alt="">
+          <p>We help you find your dream plant</p>
+          <div class="socials">
+            <div><i class="ri-facebook-fill"></i></div>
+            <div><i class="ri-instagram-fill"></i></div>
+            <div><i class="ri-twitter-fill"></i></div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="web-pages">
+          <div>
+            <h3>Information</h3>
+            <a href="#"><p>About</p></a>
+            <a href="#"><p>Product</p></a>
+            <a href="#"><p>Blog</p></a>
+          </div>
+          <div>
+            <h3>Company</h3>
+            <a href="#"><p>Community</p></a>
+            <a href="#"><p>Career</p></a>
+            <a href="#"><p>Our story</p></a>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <a href="#"><p>Getting Started</p></a>
+            <a href="#"><p>Pricing</p></a>
+            <a href="#"><p>Resources</p></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">@ 2023 all Right Reserved Term of use GREENMIND</p>
+    </footer>
+
+    <!-- script tags -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
